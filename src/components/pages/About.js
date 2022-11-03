@@ -3,9 +3,9 @@ import headshot from '../../JaredHeadshot.jpg'
 
 function About() {
     return (
-        <div className='d-flex flex-column justify-content-center text-center p-2' name='About-Me-content-container'>
+        <div className='container d-flex flex-column justify-content-center text-center p-2' name='About-Me-content-container'>
             <div name='About-Me-header-container' className='container py-4 m-2'>
-                <h1>About Page</h1>
+                <h1>About Me</h1>
             </div>
             <div className='container m-2' name='Image-container'>
                 <img src={headshot} alt='Headshot of Jared Johnson' width="300" height="400"/>
