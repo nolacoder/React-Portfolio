@@ -1,12 +1,16 @@
 import React from 'react';
+import headshot from '../../JaredHeadshot.jpg'
 
 function About() {
     return (
-        <div name='About-Me-content-container'>
-            <div name='About-Me-header-container' className='container py-4'>
+        <div className='d-flex flex-column justify-content-center text-center p-2' name='About-Me-content-container'>
+            <div name='About-Me-header-container' className='container py-4 m-2'>
                 <h1>About Page</h1>
             </div>
-            <div name='About-Me-text-container' className='container'>
+            <div className='container m-2' name='Image-container'>
+                <img src={headshot} alt='Headshot of Jared Johnson' width="300" height="400"/>
+            </div>
+            <div className='container m-2' name='About-Me-text-container'>
                 <p>
                     Hello and welcome to my portfolio! My name is Jared Johnson and I am a former QA engineer turned Full Stack developer.
                 </p>
