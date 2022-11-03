@@ -26,7 +26,7 @@ function PortfolioContainer() {
     const handlePageChange = (page) => setCurrentPage(page);
 
     return (
-        <div>
+        <div className='vh-100'>
             <Header currentPage={currentPage} handlePageChange={handlePageChange}/>
             {showPage()}
             <Footer />

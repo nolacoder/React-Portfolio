@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import '../../index.css'
 
 import { validateEmail } from '../../utils/helpers';
 
@@ -38,7 +39,7 @@ function Contact() {
     };
 
     return (
-        <div className='container d-flex flex-column justify-content-center p-2' name='form-container' >
+        <div className='container d-flex flex-column justify-content-center p-2 h-75' name='form-container' >
             <div className='p-2' name='contact-header-container' >
                 <h2>Enter your contact info!</h2>
             </div>

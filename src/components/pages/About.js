@@ -1,5 +1,6 @@
 import React from 'react';
 import headshot from '../../JaredHeadshot.jpg'
+import '../../index.css'
 
 function About() {
     return (
