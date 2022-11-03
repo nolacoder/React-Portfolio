@@ -1,10 +1,29 @@
 import React from 'react';
 import Header from './Header'
 
-function PortfolioContainer () {
+function PortfolioContainer() {
+
+    const [currentPage, setCurrentPage] = useState('About Me');
+
+    const showPage = () => {
+        if (currentPage === 'About Me') {
+            return <About />;
+        }
+        if (currentPage === 'Portfolio') {
+            return <Portfolio />;
+        }
+        if (currentPage === 'Contact') {
+            return <Contact />;
+        }
+        return <Resume />;
+    };
+
+    const handlePageChange = (page) => setCurrentPage(page);
+
     return (
         <div>
-            <Header />
+            <Header currentPage={currentPage} handlePageChang={handlePageChange}/>
+            {showPage()}
         </div>
     )
 }
