@@ -2,9 +2,10 @@ import React from 'react';
 import couchImage from '../assets/Couch-Potato.png';
 import baseImage from '../assets/Best Artist Search Ever.png';
 import weatherImage from '../assets/Weather app.png';
-import horiseonImage from '../assets/Horiseon refactor.png';
+import homeImage from '../assets/home app.png';
 import bootImage from '../assets/Study guide.png';
 import textImage from '../assets/Text Editor Screenshot.png';
+
 
 
 function Project() {
@@ -31,11 +32,11 @@ function Project() {
             image: weatherImage
         },
         {
-            title: "Horeison Home Page Refactor",
-            desc: "Efficient CSS!",
-            liveUrl: "https://nolacoder.github.io/01-Module-Challenge/",
-            gitHubUrl: "https://github.com/mbronstein1/Couch-Potato",
-            image: horiseonImage
+            title: "home",
+            desc: "Keep your home maintenance schedule organized!",
+            liveUrl: "https://calm-retreat-29451.herokuapp.com/",
+            gitHubUrl: "https://github.com/RBL1992/home",
+            image: homeImage
         },
         {
             title: "Bootcamp Study Guide",
